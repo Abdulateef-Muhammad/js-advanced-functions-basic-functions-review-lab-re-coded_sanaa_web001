@@ -33,7 +33,7 @@ function actionApplyer(startingPoint, array) {
   
     let result = startingPoint;
     for(const i of array) {
-      result = array[i](result);
+      result = array[i](startingPoint);
     }
   
   
