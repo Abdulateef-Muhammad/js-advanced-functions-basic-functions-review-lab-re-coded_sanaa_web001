@@ -34,8 +34,8 @@ function actionApplyer(startingPoint, array) {
   let result = startingPoint;
 
   for (let i = 0; i < array.length; i++ ){
-    a = array[i](result)
+    result = array[i](result);
   }
 
-  return a
+  return result;
 }
