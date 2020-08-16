@@ -31,11 +31,11 @@ const Calculator = {
 
 function actionApplyer(startingPoint, array) {
   
-    let result = startingPoint;
-    for(let  i = 0; i < array.length; i++) {
-      result = array[i](startingPoint);
-    }
-  
-  
-    return result;
+  let result = startingPoint;
+
+  for (let i = 0; i < array.length; i++ ){
+    a = array[i](result)
+  }
+
+  return a
 }
