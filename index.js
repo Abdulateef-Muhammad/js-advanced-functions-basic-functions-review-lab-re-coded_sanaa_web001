@@ -31,7 +31,9 @@ const Calculator = {
 
 function actionApplyer(startingPoint, array) {
   if(array) {
-    
+    for(const i of array) {
+      
+    }
   }
   else {
     return startingPoint;
