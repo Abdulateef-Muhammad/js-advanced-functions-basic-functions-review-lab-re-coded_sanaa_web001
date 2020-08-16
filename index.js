@@ -30,13 +30,12 @@ const Calculator = {
 };
 
 function actionApplyer(startingPoint, array) {
-  if(array) {
+  
     let result = startingPoint;
     for(const i of array) {
       result = array[i](result);
     }
-  }
-  else {
+  
+  
     return startingPoint;
-  }
 }
