@@ -32,7 +32,7 @@ const Calculator = {
 function actionApplyer(startingPoint, array) {
   
     let result = startingPoint;
-    for(const i of array) {
+    for(const i in array) {
       result = array[i](startingPoint);
     }
   
