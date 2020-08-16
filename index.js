@@ -37,5 +37,5 @@ function actionApplyer(startingPoint, array) {
     }
   
   
-    return startingPoint;
+    return result;
 }
