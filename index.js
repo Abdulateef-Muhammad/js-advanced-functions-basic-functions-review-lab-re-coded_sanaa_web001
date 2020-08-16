@@ -26,12 +26,9 @@ const Calculator = {
     },
     divide: function() {
         return 10 / 5;
-    },
-    actionApplyer: function(starting, array) {
-      if(array) {
-        
-      } else {
-        return starting;
-      }
     }
 };
+
+function actionApplyer(starting, array) {
+  
+}
