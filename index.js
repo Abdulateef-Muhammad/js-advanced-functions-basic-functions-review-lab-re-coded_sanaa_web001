@@ -30,5 +30,10 @@ const Calculator = {
 };
 
 function actionApplyer(starting, array) {
-  
+  if(array) {
+    
+  }
+  else {
+    return starting;
+  }
 }
