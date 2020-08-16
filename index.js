@@ -29,11 +29,11 @@ const Calculator = {
     }
 };
 
-function actionApplyer(starting, array) {
+function actionApplyer(startingPoint, array) {
   if(array) {
     
   }
   else {
-    return starting;
+    return startingPoint;
   }
 }
